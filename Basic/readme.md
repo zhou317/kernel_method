@@ -17,11 +17,12 @@ $$
 \phi : R^2 \rightarrow R^3 \\ (x_1,x_2) \rightarrow (z_1,z_2,z_3) = (x_1^2,\sqrt{2}x_1x_2,x_2^2)
 $$
 
-<center class = "half">
-<img src = “./basic_2d.png”  width = “50%” align = left><img src = “./basic_3d.png”  width = “50%” align = right>
+
+
+<center class="half">
+    <img src="img/basic_2d.png" width="300"/>
+    <img src="img/basic_3d.png" width="300"/>
 </center>
-
-
 
 
 
