@@ -60,7 +60,9 @@ $$
 $$
 在低维度中的数据被映射到高维度空间。图中坐标系表示映射后的分布，显然数据已经线性可分了。
 
-![1596201646290](D:\2021-summer\kernel_method\Basic\img\ppt2d.png)
+<center class="half">
+    <img src="img/ppt2d.png" width="300"/>
+</center>
 
 其中$c_+$是正类别的中心点，$c_-$是负类别的中心点。中间的虚线表示我们要找的分类平面。虚线和红线的交点为两中心点的中心点$c=\frac{1}{2}\left(\vec{c}_{+}+\vec{c}_{-}\right)$。于是我们就可以得到决策函数：$y=\operatorname{sgn}(<\phi(x)-c, w>)$。内积的正负表示夹角的大小，如果夹角小于90°，内积为正，$sgn$符号函数的到的值的1。反之大于90°，内积为负，得到-1。
 
@@ -202,7 +204,8 @@ $$
 
 我发现可以用sklearn+plotly来实现第一个例子，简单且更直观：
 
-![example](img\example.gif)
+<center class="half">
+    <img src="img/example.gif" />
+</center>
 
 [这个例子的代码在此simple_example2.ipynb](https://github.com/zhou317/kernel_method/tree/master/Basic)
-
