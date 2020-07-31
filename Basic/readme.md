@@ -82,6 +82,8 @@ $$
  \kappa\left(x_j, x_{i}\right)
 $$
 可以看到，我们只要知道kernel function, 并不需要投影我们就能计算出来$x$对应的类别$y$。
+
+常用的kernel有以下几种：
 $$
 Linear\,\, Kernel:
 \kappa(x, z)=<x, z>\\
@@ -195,4 +197,12 @@ $$
 * 使用一个映射函数将样本从原空间映射到高维的特征空间（希尔伯特空间H)
 * 在高维空间H, 特征是线性可分的。
 * 我们可以直接使用样本及核函数K来计算高维空间中特征的内积，获取高维空间中数据的几何性质。
+
+#### 5 追加
+
+我发现可以用sklearn+plotly来实现第一个例子，简单且更直观：
+
+![example](img\example.gif)
+
+[这个例子的代码在此simple_example2.ipynb](https://github.com/zhou317/kernel_method/tree/master/Basic)
 
